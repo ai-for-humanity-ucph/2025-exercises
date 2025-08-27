@@ -1,0 +1,17 @@
+[project]
+name = "ai4h"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jsr-p", email = "jsr-p@sodas.ku.dk" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+ai4h = "ai4h:main"
+
+[build-system]
+requires = ["uv_build>=0.8.13,<0.9.0"]
+build-backend = "uv_build"
