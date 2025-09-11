@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "numpy>=2.3.2",
+    "scikit-learn>=1.7.2",
 ]
 
 [project.scripts]
@@ -21,4 +22,10 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "jupyter>=1.1.1",
+    "pytest>=8.4.2",
 ]
+
+# Extra
+[tool.ruff]
+extend-select = ["I"]
+ignore = ["F401"]
