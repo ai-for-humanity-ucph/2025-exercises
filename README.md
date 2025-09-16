@@ -1,5 +1,16 @@
 # Exercise class
 
+## Week 3
+
+- Modules:
+  - [src/ai4h/models/embeddings.py](src/ai4h/models/embeddings.py)
+- Scripts:
+  - [scripts/week3_embeddings.py](scripts/week3_embeddings.py)
+  - [scripts/week3_torch.py](scripts/week3_torch.py)
+
+- Output:
+  - [Comparison neural networks](output/nn_output.md)
+
 ## Week 2
 
 - Modules:

@@ -11,3 +11,5 @@ wheels/
 
 .ipynb_checkpoints/
 data
+src/ai4h/models/lm.py
+scripts/dev/layer_init.py

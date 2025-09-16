@@ -8,8 +8,13 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "matplotlib>=3.10.6",
+    "nltk>=3.9.1",
     "numpy>=2.3.2",
     "scikit-learn>=1.7.2",
+    "tabulate>=0.9.0",
+    "torch>=2.8.0",
+    "torchvision>=0.23.0",
 ]
 
 [project.scripts]
@@ -21,8 +26,22 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "ipython>=9.4.0",
     "jupyter>=1.1.1",
     "pytest>=8.4.2",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu" },
+]
+torchvision = [
+  { index = "pytorch-cpu" },
 ]
 
 # Extra

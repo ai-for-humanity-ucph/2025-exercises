@@ -38,6 +38,9 @@ def main():
     parser.add_argument("--batch-size", type=int, default=32, help="Mini-batch size")
     parser.add_argument("--lr", type=float, default=3.0, help="Learning rate")
     parser.add_argument("--epochs", type=int, default=8, help="Number of epochs")
+    parser.add_argument(
+        "--shuffle", action="store_true", help="Shuffle data each epoch"
+    )
     args = parser.parse_args()
 
     X, y = load_mnist()
@@ -61,7 +64,8 @@ def main():
     try:
         for i in range(args.epochs):
             # shuffle training data as MN does
-            random.shuffle(training_data)
+            if args.shuffle:
+                random.shuffle(training_data)
             mini_batches = [
                 training_data[k : k + args.batch_size]
                 for k in range(0, n, args.batch_size)
