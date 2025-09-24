@@ -1,5 +1,10 @@
 # Exercise class
 
+## Week 4
+
+- Scripts:
+  - [scripts/week4_llm.py](scripts/week4_llm.py)
+
 ## Week 3
 
 - Modules:
