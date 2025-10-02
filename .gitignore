@@ -13,3 +13,12 @@ wheels/
 data
 src/ai4h/models/lm.py
 scripts/dev/layer_init.py
+output/l10-random.html
+output/l11-random.html
+output/l2-random.html
+output/l3-random.html
+output/l4-random.html
+output/l5-random.html
+output/l7-random.html
+output/l8-random.html
+output/l9-random.html

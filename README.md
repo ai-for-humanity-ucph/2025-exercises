@@ -1,5 +1,13 @@
 # Exercise class
 
+## Week 5
+
+- Scripts:
+  - [scripts/week5_attention.py](scripts/week5_attention.py)
+- Output:
+  - [loss_random.png](output/loss_random.png)
+  - See the attention heads [here](https://ai-for-humanity-ucph.github.io/2025/exercises/class-5)
+
 ## Week 4
 
 - Scripts:
