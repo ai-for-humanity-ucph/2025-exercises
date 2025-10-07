@@ -1,5 +1,13 @@
 # Exercise class
 
+## Week 6
+
+- Scripts:
+  - [scripts/week6_gemini.py](scripts/week6_gemini.py)
+- Output:
+  - See gemini output inside [output](output/)
+  - [output/ft.json](output/ft.json)
+
 ## Week 5
 
 - Scripts:
