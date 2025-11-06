@@ -1,5 +1,12 @@
 # Exercise class
 
+## Week 9
+
+- Scripts:
+  - [scripts/week9_simple.py](scripts/week9_simple.py)
+- Output:
+  - [figs/contraction.png](figs/contraction.png)
+
 ## Week 7
 
 - Scripts:
