@@ -1,5 +1,13 @@
 # Exercise class
 
+## Week 10
+
+- Scripts:
+  - [scripts/week10_causal.py](scripts/week10_causal.py)
+  - [scripts/week10_causal.R](scripts/week10_causal.R)
+- Output:
+  - [figs/grfr.png](figs/grfr.png)
+
 ## Week 9
 
 - Scripts:
