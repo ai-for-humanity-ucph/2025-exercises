@@ -1,5 +1,10 @@
 # Exercise class
 
+## Week 11
+
+- Scripts:
+  - [scripts/week11_dml.py](scripts/week11_dml.py)
+
 ## Week 10
 
 - Scripts:
