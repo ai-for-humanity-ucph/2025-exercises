@@ -1,5 +1,12 @@
 # Exercise class
 
+## Week 7
+
+- Scripts:
+  - [scripts/week7_fairness.py](scripts/week7_fairness.py)
+- Output:
+  - [figs/fairness/](figs/fairness/)
+
 ## Week 6
 
 - Scripts:
